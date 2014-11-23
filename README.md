@@ -1,14 +1,19 @@
 =================================================================
+
 Readme.md : Course Project work of the class
+
 "Getting and Cleaning Data" 
+
 by Dr.Jeff Leek, Dr.Roger D. Peng,  Dr.Brian Caffo
+
 https://class.coursera.org/getdata-009
-________________________________________________________________
+
+=================================================================
 
 
 Aim of the project is to merge the two data sets given and convert into a tidy dataset for easy reading with descriptive column names attached to the dataset. The dataset is further filtered for columns containing either mean() or std() words in their variable variables. The data on these columns are averaged for each subject(volunteer) and for each type of activity they took ( like walking, sitting etc).
 
-Dataset used for project work
+#Dataset used for project work
 
 The data set comes from the Human Activity Recognition Using Smartphones Dataset by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
@@ -17,11 +22,11 @@ Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
 
-Background on the data provided
+#Background on the data provided
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using sensor signals (accelerometer and gyroscope) data were collected and filtered thru time window and a vector of features was obtained by calculating variables from the time and frequency domain. Out of the 561 features available, only mean and standard deviations are collected and archived. See 'codebook.md' for details on the columns filtered. 
 
-Project Output on Github repository Summary
+#Project Output on Github repository Summary
 
 1. har_meanstdsum.txt
     Final tidy dataset filtered and summrized from the original datasets provided. 
