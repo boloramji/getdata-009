@@ -56,7 +56,7 @@ _
     X_final <- X_traintest[,grepl(colPattern1,colnames(X_traintest))][,]
 
 
-This results in 79 columns after filtering.
+    This results in 79 columns after filtering.
 
 12.	Now we will merge this data with subject_traintest and y_traintest by using column binding in R 
 
